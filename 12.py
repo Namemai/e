@@ -2600,7 +2600,9 @@ def bot(op):
                                                                                                 wait["blacklist"][op.param2] = True
                                                                                             except:
                                                                                                 pass
+
                 return
+
         if op.type == 19:
             if Jmid in op.param3:
                 if op.param2 in Bots:
