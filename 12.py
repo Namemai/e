@@ -29,7 +29,7 @@ channel = LineChannel(cl,cl.server.CHANNEL_ID['LINE_TIMELINE'])
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 
-ki = LineClient("zgf09103@zzrgg.com","mai06555mai)
+ki = LineClient("zgf09103@zzrgg.com","mai06555mai")
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki,ki.server.CHANNEL_ID['LINE_TIMELINE'])
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
