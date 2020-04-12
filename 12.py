@@ -1173,7 +1173,6 @@ def bot(op):
                     except:
                         random.choice(ABC).findAndAddContactsByMid(op.param3)
                         random.choice(ABC).inviteIntoGroup(op.param1,[Zmid])
-                return
 
         if op.type == 19:
             if mid in op.param3:
@@ -1269,7 +1268,7 @@ def bot(op):
                                                                 wait["blacklist"][op.param2] = True
                                                             except:
                                                                 pass
-                return
+
         if op.type == 19:
             if Amid in op.param3:
                 if op.param2 in Bots:
@@ -1364,7 +1363,7 @@ def bot(op):
                                                                 wait["blacklist"][op.param2] = True
                                                             except:
                                                                 pass
-                return
+
         if op.type == 19:
             if Bmid in op.param3:
                 if op.param2 in Bots:
@@ -1459,7 +1458,7 @@ def bot(op):
                                                                 wait["blacklist"][op.param2] = True
                                                             except:
                                                                 pass
-                return
+
         if op.type == 19:
             if Cmid in op.param3:
                 if op.param2 in Bots:
@@ -1554,7 +1553,7 @@ def bot(op):
                                                                 wait["blacklist"][op.param2] = True
                                                             except:
                                                                 pass
-                return
+
         if op.type == 19:
             if Dmid in op.param3:
                 if op.param2 in Bots:
@@ -1649,7 +1648,7 @@ def bot(op):
                                                                 wait["blacklist"][op.param2] = True
                                                             except:
                                                                 pass
-                return
+
         if op.type == 19:
             if Emid in op.param3:
                 if op.param2 in Bots:
@@ -1744,7 +1743,7 @@ def bot(op):
                                                                 wait["blacklist"][op.param2] = True
                                                             except:
                                                                 pass
-                return
+
         if op.type == 19:
             if Fmid in op.param3:
                 if op.param2 in Bots:
@@ -1839,7 +1838,7 @@ def bot(op):
                                                                 wait["blacklist"][op.param2] = True
                                                             except:
                                                                 pass
-                return
+
         if op.type == 19:
             if Gmid in op.param3:
                 if op.param2 in Bots:
@@ -1934,7 +1933,7 @@ def bot(op):
                                                                 wait["blacklist"][op.param2] = True
                                                             except:
                                                                 pass
-                return
+
         if op.type == 19:
             if Hmid in op.param3:
                 if op.param2 in Bots:
@@ -2029,7 +2028,7 @@ def bot(op):
                                                                 wait["blacklist"][op.param2] = True
                                                             except:
                                                                 pass
-                return
+
         if op.type == 19:
             if Imid in op.param3:
                 if op.param2 in Bots:
@@ -2124,8 +2123,6 @@ def bot(op):
                                                             except:
                                                                 pass
 
-                return
- 
             if admin in op.param3:
                 if op.param2 in Bots:
                     pass
