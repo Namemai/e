@@ -23,37 +23,37 @@ import youtube_dl
 #SEMOGA BERMANFAAT,,,TEGUH S..
 
 
-cl = LineClient("email","sandi")
+cl = LineClient("06555mai@gmail.com","mai06555mai")
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl,cl.server.CHANNEL_ID['LINE_TIMELINE'])
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 
-ki = LineClient("email","sandi)
+ki = LineClient("zgf09103@zzrgg.com","mai06555mai)
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki,ki.server.CHANNEL_ID['LINE_TIMELINE'])
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
 
-kk = LineClient("email","sandi")
+kk = LineClient("qmq37236@eoopy.com","mai06555mai")
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
 
-kc = LineClient("email","sandi")
+kc = LineClient("ckz89175@bcaoo.com","mai06555mai")
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
 
-kb = LineClient("email","sandi")
+kb = LineClient("pzx60129@bcaoo.com","mai06555mai")
 kb.log("Auth Token : " + str(kb.authToken))
 channel4 = LineChannel(kb)
 kb.log("Channel Access Token : " + str(channel4.channelAccessToken))
 
 
-kd = LineClient("email","sandi")
+kd = LineClient("faz26918@zzrgg.com","mai06555mai")
 kd.log("Auth Token : " + str(kd.authToken))
 channel5 = LineChannel(kd)
 kd.log("Channel Access Token : " + str(channel5.channelAccessToken))
@@ -92,7 +92,7 @@ channel10 = LineChannel(ky)
 ky.log("Channel Access Token : " + str(channel10.channelAccessToken))
 
 
-sw = LineClient("email","sandi")
+sw = LineClient("lln71685@bcaoo.com","mai06555mai")
 sw.log("Auth Token : " + str(sw.authToken))
 channel11 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
